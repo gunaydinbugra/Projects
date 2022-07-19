@@ -35,7 +35,5 @@ for channel = 1:16
     x(channel) = readVoltage(a,'A0')*1024/5;
 end
 
-x
-l = myNeuralNetworkFunction(x,1,2)
       
   
